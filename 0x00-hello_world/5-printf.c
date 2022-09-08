@@ -4,11 +4,11 @@
 
 /**
  *
- *  * main - Short description, single line
+ *  * main - Entry point
  *
- *   * Description: Longer description of the function)?
+ *   *
  *
- *    * Return: Description of the returned value
+ *    * Return: Always 0 (Success)
  *
  *     */
 
@@ -16,8 +16,10 @@ int main(void)
 
 {
 
-		puts("\with proper grammar, but the outcome is a piece of art);
+	    printf("with proper grammar, but the outcome is a piece of art,\n");
 
-			return (0);
+	        return (0);
 
 }
+
+
