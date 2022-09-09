@@ -4,13 +4,15 @@
 
 /**
 
- * main - Short description, single line
+ * main - print the string in the put function
 
  *
 
- * Description: Longer description of the function)?
+ * Description: using the main function
 
- * Return: Description of the returned value
+ * this program prints "programming is like building a multilingual puzzle
+
+ * Return: 0
 
  */
 
