@@ -1,25 +1,23 @@
 #include "main.h"
 
 /**
- * _atoi - converts a string to an int
- * @s: the string to be changed
+ * _strcpy - Copy paste string
+ * @dest: destination
+ * @src: source
  *
- * Return: the converted int
+ * Return: destination
  */
 
-int _atoi(char *s)
+char *_strcpy(char *dest, char *src)
 {
-	int sign = 1;
-	unsigned int num = 0;
+	int inc = 0;
 
-	do {
-		if (*s == '-')
-			sign *= -1;
-		else if (*s >= '0' && *s <= '9')
-			num = num * 10 + (*s - '0');
-		else if (num > 0)
-			break;
-	} while (*s++);
+	while (*(src + inc) != '\0')
+	{
+		*(dest + inc) = *(src + inc);
+		inc++;
+	}
+	*(dest + inc) = '\0';
 
-	return (num * sign);
+	return (dest);
 }
